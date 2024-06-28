@@ -2576,7 +2576,8 @@ section,
 .header .btn-pagelanguage,
 .header .btn-pagelanguage:focus {
   color: var(--contrast-color);
-  background: rgb(152, 87, 238);
+  background: #FFF1EA;
+  font-family: var(--default-font);
   font-size: 14px;
   padding: 8px 25px;
   margin: 0 0 0 30px;
@@ -2587,8 +2588,16 @@ section,
 .header .btn-pagelanguage:hover,
 .header .btn-pagelanguage:focus:hover {
   color: var(--contrast-color);
-  background: color-mix(in srgb, var(--accent-color), transparent 15%);
+  background: color-mix(in srgb, #FCA076, transparent 5%);
+  font-style: italic;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
+/* Tried to change the box dint got the output
+.header .btn-pagelanguage,
+.header .btn-pagelanguage:focus #id .targetLanguage{
+  color: #df1529;
+} */
 
 @media (max-width: 1200px) {
   .header .logo {
